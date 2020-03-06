@@ -10,13 +10,13 @@ proc=pr.Processing()
 2. Fit processing object with specifying file name of train dataset:
 
 ```python
-proc.fit('train_test2.tsv')
+proc.fit('train.tsv')
 ```
 
 3. Convert specified test dataset into output format:
 
 ```python
-proc.transform('train_test2.tsv')
+proc.transform('test.tsv')
 ```
 
 'test_proc.tsv' file will be generated.
