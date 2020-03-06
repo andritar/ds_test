@@ -3,7 +3,8 @@ Processor module has a simple API. You need to make three steps to snandardize a
 1. Create Processing object with specifying scaling type (z-scaling applies by default)
 
 ```python
-proc=Processing()
+import processor as pr
+proc=pr.Processing()
 ```
     
 2. Fit processing object with specifying file name of train dataset:
